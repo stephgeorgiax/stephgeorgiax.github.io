@@ -13,11 +13,13 @@ html {background-image: url("./BandW.jpg"); background-repeat: no-repeat;backgro
 
 .main-col {
   float: left;
+  align-items: center;
   width: 50%;
 }
 
 .sidebar-col {
   float:right;
+  align-items: center;
   width: 50%;
 }
 
@@ -40,7 +42,7 @@ h2 {font-size: 40px; color: #313131; font-style: italic; font-family: sans-serif
 
 h3 {font-size: 20px; color: #543939; font-family: sans-serif;}
 
-h4{font-size: 20px; color: #543939; font-family: sans-serif; text-align: center;}
+h4{font-size: 20px; color: #DB6d6d; font-family: sans-serif; text-align: center;}
 
 
 ul {
