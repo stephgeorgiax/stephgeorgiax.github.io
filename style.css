@@ -1,7 +1,9 @@
 html {background-image: url("./fujiback.jpg"); background-repeat: no-repeat;background-size: cover;
       background-position: center;}
 
-
+#col {
+  column-count: 2;
+}
 
 h1 {color: #DB6d6d; text-align: center; font-size:50px; font-family: sans-serif, arial, "Times New Roman";
  font-style: italic; text-decoration: underline;}
@@ -27,7 +29,3 @@ div {
   line-height: 300%;
 }
 img {padding-left:70px; width: 300px;}
-
-.column.side {
-  width: 50;
-}
