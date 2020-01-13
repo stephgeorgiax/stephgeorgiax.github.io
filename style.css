@@ -1,22 +1,44 @@
 html {background-image: url("./fujiback.jpg"); background-repeat: no-repeat;background-size: cover;
       background-position: center;}
 
+      img {
+        opacity: 0.5;
+        filter: alpha(opacity=50);
+      }
+
+      img:hover {
+        opacity: 1.0;
+        filter: alpha(opacity=100);
+      }
+
+.main-col {
+  float: left;
+  width: 50%;
+}
+
+.sidebar-col {
+  float:right;
+  width: 50%;
+}
+
+
+a {
+  color: #DB6d6d;
+}
+
+a:visited {
+  color: #2C3659;
+}
 
 h1 {color: #DB6d6d; text-align: center; font-size:50px; font-family: sans-serif, arial, "Times New Roman";
  font-style: italic; text-decoration: underline;}
 
- #col {
-
-   display: flex;
-   column-count: 2;
-   column-width: 100px;
- }
 
 
-h2 {font-size: 35px; color: #313131; font-style: italic; font-family: sans-serif; text-align: center;}
+h2 {font-size: 40px; color: #313131; font-style: italic; font-family: sans-serif; text-align: center;}
 
 
-h3 {font-size: 20px; color: #543939;}
+h3 {font-size: 20px; color: #543939; font-family: sans-serif;}
 
 ul {
   padding-left: 20px;
@@ -33,4 +55,5 @@ ul li {
 div {
   line-height: 300%;
 }
-img {padding-left:70px; width: 300px;}
+img {padding-left:70px; height: 250px; align-items: center;
+;}
