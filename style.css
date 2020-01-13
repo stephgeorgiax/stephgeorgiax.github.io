@@ -13,13 +13,13 @@ html {background-image: url("./BandW.jpg"); background-repeat: no-repeat;backgro
 
 .main-col {
   float: left;
-  align-items: center;
+
   width: 50%;
 }
 
 .sidebar-col {
   float:right;
-  align-items: center;
+
   width: 50%;
 }
 
